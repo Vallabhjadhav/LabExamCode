@@ -26,7 +26,7 @@ public class Numbers{
                 max = num1;
             }
 
-            System.out.print("Maximum Number is: "+max);
+            System.out.println("Maximum Number is: "+max);
 
             avg = (num1+num2+num3)/3;
             System.out.print("Average  of Numbers is: "+avg);
