@@ -11,7 +11,7 @@ public class Numbers{
             int num2 = sc.nextInt();
             System.out.print("Enter Number three: ");
             int num3 = sc.nextInt();
-            int max = 0;
+            int max = 0,avg=0;
 
             if(num2>num3 && num2>num1)//10 5 1
             {
@@ -27,6 +27,9 @@ public class Numbers{
             }
 
             System.out.print("Maximum Number is: "+max);
+
+            avg = (num1+num2+num3)/3;
+            System.out.print("Average  of Numbers is: "+avg);
         }
 
     }
